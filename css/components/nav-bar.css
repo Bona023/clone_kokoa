@@ -2,9 +2,9 @@
     width: 100%;
     position: fixed;
     bottom: 0px;
-    border-top: 2px solid rgba(185, 184, 183, 0.4);
+    border-top: 2px solid var(--grey);
     background-color: rgba(233, 233, 233, 0.8);
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 .nav__list {
     display: flex;
@@ -15,24 +15,11 @@
     color: rgba(47, 54, 62, 0.9);
 }
 .nav__notification {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: tomato;
-    color: white;
-    font-weight: 500;
     position: absolute;
     left: 23px;
     top: -18px;
 }
-.nav__dot {
-    background-color: tomato;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
+.nav__dot-position {
     position: absolute;
     left: 30px;
     bottom: 25px;

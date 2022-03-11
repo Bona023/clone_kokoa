@@ -4,24 +4,21 @@
     background-color: rgba(207, 203, 203, 0.25);
     padding: 10px 0px;
     margin-bottom: 20px;
-    color: rgba(54, 53, 53, 0.9);
+    margin-top: -15px;
+    color: var(--grey);
     font-size: 15px;
 }
 #friends-display-link i {
     color: rgba(155, 153, 153, 0.6);
 }
-.friends-screen {
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .friends-screen__channel {
     margin-top: 20px;
-    border-top: 1px solid rgba(158, 157, 157, 0.4);
+    border-top: var(--main-border);
     padding-top: 15px;
 }
 .friends-screen__cannel-header {
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    color: rgba(99, 98, 98, 0.6);
+    color: var(--grey);
 }
