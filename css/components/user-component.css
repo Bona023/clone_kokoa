@@ -33,6 +33,13 @@
     margin-top: 8px;
     color: var(--grey);
 }
+.i-black {
+    color: black;
+}
+.user-component__subtitle i {
+    color: tomato;
+    opacity: 0.8;
+}
 .user-component__column:last-child {
     display: flex;
     flex-direction: column;

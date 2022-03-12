@@ -1,0 +1,18 @@
+.settings__setting {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(110, 110, 110, 0.1);
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(48, 47, 47, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings__setting i {
+    margin-right: 15px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+.grey {
+    color: rgba(48, 47, 47, 0.5);
+}
