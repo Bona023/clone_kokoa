@@ -1,7 +1,7 @@
 #only-mobile {
     position: absolute;
     z-index: 99;
-    background-color: var(--yellow);
+    background-color: rgb(120, 189, 221);
     width: 100vw;
     height: 100vh;
     display: flex;
