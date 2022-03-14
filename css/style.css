@@ -11,6 +11,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/only-mobile.css";
 
 /** screens */
 @import "screens/login.css";
@@ -21,7 +22,7 @@
 @import "screens/chatting.css";
 
 body {
-    height: 120vh;
+    height: 175vh;
     font-family: "Fredoka", sans-serif;
 }
 .welcome-header {
