@@ -1,3 +1,79 @@
+.fruit-pay {
+    width: 95vw;
+    height: 26vh;
+    background-color: rgb(79, 149, 196);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+.fruit-pay__title {
+    width: 90vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fruit-pay__title__left {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.fruit-pay__title__right {
+    display: flex;
+    align-items: center;
+}
+.fruit-pay__title__right i {
+    margin-right: 1vw;
+}
+.fruit-pay__title__right div {
+    width: 0.3vw;
+    height: 3vh;
+    background-color: black;
+    margin: 0 1vw;
+}
+.fruit-pay__notice {
+    background-color: aliceblue;
+    width: 90vw;
+    height: 5.5vh;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5vw;
+    border-radius: 1vw;
+}
+.fruit-pay__notice i {
+    margin-right: 1vw;
+}
+.fruit-pay__pay,
+.fruit-pay__send {
+    width: 90vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fruit-pay__pay {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.fruit-pay__send__left {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fruit-pay__send__right {
+    width: 23vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 0.9rem;
+}
+.fruit-pay__send__right i {
+    margin-right: 1vw;
+}
 .more-screen .icon-row__more {
     margin-top: 30px;
 }

@@ -1,5 +1,7 @@
 .user-component {
+    height: 80px;
     justify-content: space-between;
+    padding-left: 2vw;
 }
 .user-component,
 .user-component__column:first-child {
@@ -37,7 +39,7 @@
     color: black;
 }
 .user-component__subtitle i {
-    color: tomato;
+    color: teal;
     opacity: 0.8;
 }
 .user-component__column:last-child {
@@ -49,4 +51,11 @@
 .user-component__time {
     display: block;
     margin-bottom: 10px;
+    color: var(--yellow);
+}
+
+.choose:hover {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 6vw;
 }

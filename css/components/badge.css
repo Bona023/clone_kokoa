@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: tomato;
+    background-color: rgb(39, 177, 177);
     color: white;
     font-weight: 500;
 }

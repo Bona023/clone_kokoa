@@ -1,5 +1,6 @@
 :root {
-    --yellow: rgb(254, 161, 0);
+    --orange: rgb(255, 122, 60);
+    --yellow: rgb(240, 208, 106);
     --grey: rgba(0, 0, 0, 0.4);
-    --main-border: 1px solid rgba(112, 111, 111, 0.5);
+    --main-border: 0.3vh solid black;
 }
